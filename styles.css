@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+/****** Header ******/
+#header-nav{
+  background-color: grey;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 20px;
+}
+.navbar-header {
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold; 
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+  margin: 5px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-brand h1{
+  float: left;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 2.7em;
+  margin-top: 0px;
+  color: black;
+}
+.icon-bar {
+  padding: 0.5px;
+}
+.navbar-nav
+{
+  margin-top: 0px;
+}
+#nav-list {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #D3D3D3;
+}
+#nav-list li {
+  height: 40px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 1.1em;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+h1, h3 {
+  font-weight: bold;
+  color: black;
+}
+/* END HEADER */
+#section-part {
+  background-color: #eeeeee;
+  border: 2px solid black;
+  margin: 15px;
+  margin-top: 40px;
+  padding: 10px;
+}
+a {
+    color: #00008b;
+    font-size: 1.2em;
+}
+@media (max-width: 767px) {
+  /* Header */
+  #header-nav{
+  padding: 0px;
+  padding-top: 20px;
+  }
+  #collapsable-nav { /* Collapsed nav menu text */
+    font-size: 1em;
+    margin-right: -15px;
+  }
+  #section-part {
+    margin-right: 90px;
+    margin-left: 90px;
+    overflow: hidden;
+  }
+}
